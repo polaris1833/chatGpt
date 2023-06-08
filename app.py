@@ -3,7 +3,7 @@ import openai
 
 openai.api_key = st.secrets["api_key"]
 
-st.title("한화생명 ChatGPT Plus DALL-E 23222")
+st.title("한화생명 ChatGPT DALL-E")
 st.text("아래 Prompt에 그리고 싶은 그림의 이미지를 텍스트로 입력해 보세요. 멋진 그림을 그려드립니다.")
 
 with st.form("form"):
